@@ -1,4 +1,13 @@
+# AUTO-GENERATED IGNORED FILES #
+################################
+
 *.log
 *.pot
 *.pyc
 local_settings.py
+
+
+# DJANGO CHALLENGE IGNORED FILES #
+##################################
+
+*.db
