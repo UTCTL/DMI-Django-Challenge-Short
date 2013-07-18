@@ -1,4 +1,4 @@
-# Django settings for chirp project.
+# Django settings for chirpsite project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -83,7 +83,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = '4^6o!#j*j*-n#4xi^gea0*lm=c1(_*n94k)%$sovy^^qbz7qh_'
+SECRET_KEY = '_ai@-ql+!$g7ln75=3fs!@!sl@4nsv@e2+8^$ch35z_67y6-pj'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -102,10 +102,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'chirp.urls'
+ROOT_URLCONF = 'chirpsite.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'chirp.wsgi.application'
+WSGI_APPLICATION = 'chirpsite.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
