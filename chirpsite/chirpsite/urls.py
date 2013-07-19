@@ -13,5 +13,8 @@ urlpatterns = patterns('',
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
-	url(r'^admin/', include(admin.site.urls)),
+	url(r'^admin/', include(admin.site.urls)), # NOTE: the 'r' stands for 'regular expression'
+	(r'^register/$', 'chirp.views.ChirperRegistration'),
+	(r'^login/$', 'chirp.views.LoginRequest'),
+	(r'^logout/$', 'chirp.views.LogoutRequest'),
 )

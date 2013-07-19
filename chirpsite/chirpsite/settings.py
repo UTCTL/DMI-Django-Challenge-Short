@@ -111,7 +111,11 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    '/Users/Daniel/Dropbox/Work/DMI-Django-Challenge-Short/chirpsite/templates'
 )
+
+# provides get_profile()
+AUTH_PROFILE_MODULE = 'chirp.Chirper'
 
 INSTALLED_APPS = (
     'django.contrib.auth',
@@ -124,6 +128,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+    'chirp',
 )
 
 # A sample logging configuration. The only tangible logging
